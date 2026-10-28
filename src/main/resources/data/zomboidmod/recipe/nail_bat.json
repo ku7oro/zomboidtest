@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["N", "S", "S"],
+  "key": { "N": { "item": "minecraft:iron_nugget" }, "S": { "item": "minecraft:stick" } },
+  "result": { "id": "zomboidmod:nail_bat", "count": 1 }
+}

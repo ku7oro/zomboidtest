@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "zomboidmod",
+  "version": "0.1.0",
+  "name": "Zomboid Survival",
+  "description": "Project Zomboid-style survival: thirst, fatigue, bleeding.",
+  "environment": "*",
+  "mixins": ["zomboidmod.mixins.json"],
+  "entrypoints": {
+    "main": ["com.example.zomboidmod.ZomboidMod"],
+    "client": ["com.example.zomboidmod.ZomboidClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
